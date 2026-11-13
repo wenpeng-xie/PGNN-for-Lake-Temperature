@@ -4,8 +4,6 @@ Code accompanying **High-Frequency Observations Reveal Trade-Offs Between Profil
 
 This repository provides LSTM, residual state-space (rSSM), and partially physics-guided neural network (PGNN) implementations for Yamanokami, Shiode, and Shin reservoirs. It also includes observation screening, thermal-structure and event diagnostics, sensitivity analyses, and plotting scripts for the revised manuscript.
 
-**GLM simulation, calibration code, configuration files, and executables are not included.** Four-model comparison workflows read separately supplied GLM predictions or summary statistics.
-
 ## 1. Installation
 
 Use Python 3.10 or later. Run the commands below from the repository root:
@@ -39,7 +37,7 @@ These checks test code integrity and small synthetic examples; they do not repro
 ├── configs/         Workflow registry, final member lists, and data-path metadata
 ├── analysis/        Observation screening, metrics, events, and stability diagnostics
 ├── sensitivity/     Additional chronological-split experiments
-├── figures/         Final numerical-figure workflows
+├── figures/         Numerical-figure workflows
 ├── data/            Location for separately supplied research data
 ├── tests/           Local integrity and synthetic tests
 ├── run.py           Workflow dispatcher
