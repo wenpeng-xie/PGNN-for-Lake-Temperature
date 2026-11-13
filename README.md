@@ -4,6 +4,8 @@ Code accompanying **High-Frequency Observations Reveal Trade-Offs Between Profil
 
 This repository provides LSTM, residual state-space (rSSM), and partially physics-guided neural network (PGNN) implementations for Yamanokami, Shiode, and Shin reservoirs. It also includes observation screening, thermal-structure and event diagnostics, sensitivity analyses, and plotting scripts for the revised manuscript.
 
+**GLM simulation, calibration code, configuration files, and executables are not included.** Four-model comparison workflows read separately supplied GLM predictions or summary statistics.
+
 ## 1. Installation
 
 Use Python 3.10 or later. Run the commands below from the repository root:
@@ -37,7 +39,7 @@ These checks test code integrity and small synthetic examples; they do not repro
 ├── configs/         Workflow registry, final member lists, and data-path metadata
 ├── analysis/        Observation screening, metrics, events, and stability diagnostics
 ├── sensitivity/     Additional chronological-split experiments
-├── figures/         Numerical-figure workflows
+├── figures/         Final numerical-figure workflows
 ├── data/            Location for separately supplied research data
 ├── tests/           Local integrity and synthetic tests
 ├── run.py           Workflow dispatcher
@@ -50,7 +52,9 @@ Keep the directory structure intact. `run.py` reads `configs/entrypoints.json`, 
 
 ## 3. Data availability and placement
 
-**Zenodo data record: pending. The access link and DOI will be added here when the record is available.**
+**Data and experimental results (Zenodo): [10.5281/zenodo.24185850](https://doi.org/10.5281/zenodo.24185850).**
+
+Download the data and result packages from this record and place them in the directories specified below. The code is maintained separately in this GitHub repository.
 
 Observations, model predictions, checkpoints, and figure-source tables are managed separately from the code. Full training or reanalysis requires the corresponding input data. Figure-source tables alone support selected plotting workflows, not complete model reproduction.
 
@@ -83,6 +87,25 @@ For the figure-source companion archive, copy its **inner `figure_source_data/` 
 ```text
 data/figure_source_data/figure08/Figure8_event_level_drop_ratios.csv
 ```
+
+<details>
+<summary>Archive inputs for event-response and sensitivity workflows</summary>
+
+The shared archive inputs for Figures 7, 8, C2, and C3 include:
+
+```text
+Shin_Yamanokami_R1_5_events_return.zip
+Shiode_R1_5_step1B_return.zip
+GLM_yamanokami_return.tar.gz
+GLM_shiode_test_return.tar.gz
+Yamanokami_ML_original_batch_20261024_170442_830097.zip
+Yamanokami_PGNN_added_seeds_20261024_173009.zip
+Shiode_ML_final_members_20261025_181111_032810.zip
+```
+
+Figure C3 additionally uses `Shiode_R1_5_step1A_return.zip`; the threshold analysis uses `JoHRS_R2_3_threshold_sensitivity_return.zip`. Place these under `data/archives/` and pass the appropriate search root or explicit input paths shown by each command's `--help`. The GLM-named result archives are external comparison inputs and are not distributed with this code repository.
+
+</details>
 
 ## 4. Training and prediction
 
@@ -166,6 +189,8 @@ Training losses and fixed-depth evaluation use different sample-completeness rul
 
 ## 7. License and citation
 
-The code is released under the **MIT License**; see [LICENSE](LICENSE). The license for separately archived data will be specified in the data record.
+The code is released under the **MIT License**; see [LICENSE](LICENSE). The license for the separately archived data is specified in the [Zenodo record](https://doi.org/10.5281/zenodo.24185850).
 
-Please cite the accompanying paper and the archived code version when available. Final publication details and the code/data DOIs will be added after assignment.
+Please cite the accompanying paper, when available, and the dataset: **[10.5281/zenodo.24185850](https://doi.org/10.5281/zenodo.24185850)**. Use the citation metadata provided by Zenodo for the dataset.
+
+This DOI identifies the companion data record, not an archived version of this code repository. When referring to the code, specify the GitHub repository and the release tag or commit used. Final publication details will be added when available.
