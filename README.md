@@ -88,25 +88,6 @@ For the figure-source companion archive, copy its **inner `figure_source_data/` 
 data/figure_source_data/figure08/Figure8_event_level_drop_ratios.csv
 ```
 
-<details>
-<summary>Archive inputs for event-response and sensitivity workflows</summary>
-
-The shared archive inputs for Figures 7, 8, C2, and C3 include:
-
-```text
-Shin_Yamanokami_R1_5_events_return.zip
-Shiode_R1_5_step1B_return.zip
-GLM_yamanokami_return.tar.gz
-GLM_shiode_test_return.tar.gz
-Yamanokami_ML_original_batch_20261024_170442_830097.zip
-Yamanokami_PGNN_added_seeds_20261024_173009.zip
-Shiode_ML_final_members_20261025_181111_032810.zip
-```
-
-Figure C3 additionally uses `Shiode_R1_5_step1A_return.zip`; the threshold analysis uses `JoHRS_R2_3_threshold_sensitivity_return.zip`. Place these under `data/archives/` and pass the appropriate search root or explicit input paths shown by each command's `--help`. The GLM-named result archives are external comparison inputs and are not distributed with this code repository.
-
-</details>
-
 ## 4. Training and prediction
 
 ### Main cross-year experiments
