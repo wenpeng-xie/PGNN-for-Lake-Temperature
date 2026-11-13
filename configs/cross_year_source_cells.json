@@ -1,0 +1,110 @@
+[
+  {
+    "site": "yamanokami",
+    "model": "lstm",
+    "phase": "train",
+    "source_notebook": "yama_LSTM_2524_base-seed.ipynb",
+    "source_cell": 1,
+    "source_sha256": "f1dd3689111a807157772b30acdbc89bdb5831c034ac90f58a4a0ada8ca35514",
+    "repository_path": "training/cross_year/implementations/yamanokami_lstm_train.py"
+  },
+  {
+    "site": "yamanokami",
+    "model": "lstm",
+    "phase": "predict",
+    "source_notebook": "yama_LSTM_2524_base.ipynb",
+    "source_cell": 2,
+    "source_sha256": "e70be5fac3faaabef59cc7a29f7fa3c71dc4087fcc08b1246ec7dccd3cabe245",
+    "repository_path": "training/cross_year/implementations/yamanokami_lstm_predict.py"
+  },
+  {
+    "site": "shiode",
+    "model": "lstm",
+    "phase": "train",
+    "source_notebook": "shiode_LSTM_2425_base_seed.ipynb",
+    "source_cell": 1,
+    "source_sha256": "ca30357c881559ae0de09fa3f7c65d86f9ffac379aa46770ce02902c1b8b560a",
+    "repository_path": "training/cross_year/implementations/shiode_lstm_train.py"
+  },
+  {
+    "site": "shiode",
+    "model": "lstm",
+    "phase": "predict",
+    "source_notebook": "shiode_LSTM_2425_base.ipynb",
+    "source_cell": 2,
+    "source_sha256": "8abc99d30560171cb068bcb5f8c3e27b82633fe96f5978dd8f57ddb0e8883283",
+    "repository_path": "training/cross_year/implementations/shiode_lstm_predict.py"
+  },
+  {
+    "site": "yamanokami",
+    "model": "rssm",
+    "phase": "train",
+    "source_notebook": "yama_SSM_2524_base-seed.ipynb",
+    "source_cell": 1,
+    "source_sha256": "c269116ea280fe3f056246a68f3aac201da37832c4f7adc3418d89912dc8db0a",
+    "repository_path": "training/cross_year/implementations/yamanokami_rssm_train.py"
+  },
+  {
+    "site": "yamanokami",
+    "model": "rssm",
+    "phase": "predict",
+    "source_notebook": "yama_SSM_2524_base.ipynb",
+    "source_cell": 2,
+    "source_sha256": "dfc9b9396e3ae6a07883e832cd5bc83974bd923bd58df09d8efaf59a99b50bfa",
+    "repository_path": "training/cross_year/implementations/yamanokami_rssm_predict.py"
+  },
+  {
+    "site": "shiode",
+    "model": "rssm",
+    "phase": "train",
+    "source_notebook": "yama_SSM_2524_base-seed.ipynb",
+    "source_cell": 2,
+    "source_sha256": "afb047470375ab6027725164724de879a2affc4d7dcb980eabffe2efdc0de650",
+    "repository_path": "training/cross_year/implementations/shiode_rssm_train.py"
+  },
+  {
+    "site": "shiode",
+    "model": "rssm",
+    "phase": "predict",
+    "source_notebook": "shiode_SSM_2425_base.ipynb",
+    "source_cell": 2,
+    "source_sha256": "5181f2593db904927bef64c405bf84097b89b78ce6051d2c82eeb77228d3e7cc",
+    "repository_path": "training/cross_year/implementations/shiode_rssm_predict.py"
+  },
+  {
+    "site": "yamanokami",
+    "model": "pgnn",
+    "phase": "train",
+    "source_notebook": "shiode_PGNN.ipynb",
+    "source_cell": 7,
+    "source_sha256": "a6d30bc97e393fe1ce770b8e39e23dd2544a32df99d21900909c57f5223e8c3c",
+    "repository_path": "training/cross_year/implementations/yamanokami_pgnn_train.py"
+  },
+  {
+    "site": "yamanokami",
+    "model": "pgnn",
+    "phase": "predict",
+    "source_notebook": "shiode_PGNN.ipynb",
+    "source_cell": 8,
+    "source_sha256": "a9fc29e14acfb1a92f929a36db3ffb9ba1692180cb9317bc74158bb8d618d04d",
+    "repository_path": "training/cross_year/implementations/yamanokami_pgnn_predict.py"
+  },
+  {
+    "site": "shiode",
+    "model": "pgnn",
+    "phase": "train",
+    "source_notebook": "shiode_PGNN.ipynb",
+    "source_cell": 1,
+    "source_sha256": "e9ee8170d52afcb814d798b5272ef5a9ded77947e23439470d61ed8fe6a488f8",
+    "repository_path": "training/cross_year/implementations/shiode_pgnn_train.py"
+  },
+  {
+    "site": "shiode",
+    "model": "pgnn",
+    "phase": "predict",
+    "source_notebook": "shiode_PGNN.ipynb",
+    "source_cell": 2,
+    "source_sha256": "e5ece2e3dd8687b99aa2284f291baf5bda65e52b9802818581e1f2484ca89a89",
+    "repository_path": "training/cross_year/implementations/shiode_pgnn_predict.py"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "zenodo_record": null,
+  "data_root": "data",
+  "observations": "data/observations",
+  "archives": "data/archives",
+  "figure_source_data": "data/figure_source_data",
+  "checkpoints": "data/checkpoints"
+}

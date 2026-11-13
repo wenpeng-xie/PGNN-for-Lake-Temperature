@@ -1,0 +1,20 @@
+{
+  "release": "1.0.0",
+  "scope": "neural-network methods and final revision diagnostics; no GLM simulation/calibration code",
+  "cross_year": "unchanged uploaded notebook training implementations; five supplied src modules byte-identical",
+  "shin_main": "Shin_ML_iso4_retrain_v1",
+  "yamanokami_split_sensitivity": "Yamanokami_ML_matchedsplit_iso4_v1_4",
+  "shiode_split_sensitivity": "Shiode_ML_matchedsplit_iso4_v1_0",
+  "figure02": "JoHRS_Figure2_fixed_depth_ab_v2_1",
+  "figure05": "JoHRS_Figure5_layerwise_v1",
+  "figure06": "JoHRS_Figure6_structure_tradeoff_v1",
+  "figure07": "JoHRS_Figure7_event_responses_v1",
+  "figure08": "JoHRS_Figure8_drop_ratio_v1 (ordered default)",
+  "figure09": "JoHRS_Figure9_meteorological_composites_v1",
+  "figureC1": "plot_c1 extracted from JoHRS_R2_3_plotting_v1",
+  "figureC2": "JoHRS_FigureC2_threshold_sensitivity_v2",
+  "figureC3": "JoHRS_FigureC3_profiles_v1",
+  "figureD1": "JoHRS_FigureD1_wedderburn_v1",
+  "figure04_export": "new source-CSV exporter; exact historical export script not recovered",
+  "figureD2_export": "new annotated exporter; final fixed-depth stability computation unchanged"
+}
